@@ -8,8 +8,11 @@ Clicking on a cell toggles the cell's state as well as the state of its adjacent
 The goal of the game is to turn off all the lights on the board.
 
 # How to Play
-Click on a cell to toggle its state as well as the state of its adjacent cells.
-Continue clicking on cells until all the lights on the board are turned off.
+* Visit https://junikab.github.io/Lights-Out/
+* Click on a cell to toggle its state as well as the state of its adjacent cells.
+* Continue clicking on cells until all the lights on the board are turned off.
 
 ![lightsOut](https://user-images.githubusercontent.com/63034314/237010875-8de116f3-1076-4fb2-bcab-f571b72f5105.gif)
 
+# Built With
+React - A JavaScript library for building user interfaces.
