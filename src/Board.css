@@ -19,7 +19,7 @@
 .neon-orange {
   font-family: neon;
   color: #FB4264;
-  font-size: 80px;
+  font-size: 5vmax;
   text-shadow: 0 0 3vw #F40A35;
   animation: neon-orange 1s ease infinite;
   -moz-animation: neon-orange 1s ease infinite;
@@ -29,7 +29,7 @@
 .neon-blue {
   font-family: neon;
   color: #426DFB;
-  font-size: 80px;
+  font-size: 5vmax;
   line-height: 9vw;
   text-shadow: 0 0 3vw #2356FF;
   animation: neon-blue 2s linear infinite;
@@ -37,6 +37,7 @@
   -webkit-animation: neon-blue 2s linear infinite;
   -o-animation: neon-blue 2s linear infinite;
 }
+
 
 
 @keyframes neon-orange {

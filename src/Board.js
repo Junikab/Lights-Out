@@ -52,9 +52,12 @@ class Board extends Component {
         this.setState({ board, hasWon });
     }
 
+    
+
     render() {
+        
         let tblBoard = [];
-        for (let y = 0; y < this.props.nrows; y++) {
+        for (let y = 0; y < this.props.nrows; y++){
             let row = [];
             for (let x = 0; x < this.props.ncols; x++) {
                 let coord = `${y}-${x}`;
@@ -66,7 +69,7 @@ class Board extends Component {
                     />
                 );
             }
-            tblBoard.push(<tr key={y}>{row}</tr>);
+            tblBoard.push(<tr key= {y} >{row}</tr>);
         }
         return (
             <div>
